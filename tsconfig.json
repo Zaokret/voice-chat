@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "./*": ["vc-mod/*"]
+    },
+    "noImplicitAny": false,
+  },
+  "include": ["vc-mod/**/*"],
+  "exclude": ["node_modules", "dist", "other"]
+}
